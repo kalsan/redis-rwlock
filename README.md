@@ -1,6 +1,8 @@
 # redis-rwlock
 Ruby implementation of a reader-writer lock using Redis. You can use it to synchronize different processes, even if they run on different computers.
 
+**Notice:** Development of this repo was terminated. Feel free to fork.
+
 ## Disclaimer
 I wrote this to experiment with locks on Redis. These classes might be a good inspiration if you're interested in topics like these, but I wouldn't recommend taking them into a production environment, for the following reasons:
 - Performance: Synchronizing access over an external server (even Redis) has a considerable overhead and will slow down your program
